@@ -1,0 +1,228 @@
+/**MAIN BODY**/
+
+body {
+	background-color: #5C000D;
+	font-family: 'Cinzel Decorative', cursive;
+	direction: ltr;
+}
+
+/**HEADER**/
+
+header {
+	background: linear-gradient( #745F5E, #FFFFFF );	
+	border: solid black 7.5px;
+	font-family: 'Cinzel Decorative', cursive;
+}
+h1 {
+	color: white;
+	text-shadow: 3px 3px 5px black;
+	text-align: left;
+	font-family: 'Cinzel Decorative', cursive, Georgia, Arial black, serif;
+}
+h2, h3 {
+	color: white;
+	text-shadow: 3px 3px 5px black;
+	text-align: left;
+	font-family: 'Cinzel Decorative', cursive, Georgia, Arial black, serif;
+}
+.para {
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Cinzel Decorative', cursive, Georgia, Arial black, serif;
+}
+.caption {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	margin:-5px 0 0 0;
+	text-align: left;
+	font-family: 'Cinzel Decorative', cursive, Georgia, Arial black, serif;
+}
+div .two {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 100px;
+}
+ .main {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+}
+li {
+	float: left;
+}
+li a, .dropdown-btn {
+	display: inline-block;
+	color: #7D686D;
+	background-color: #5C000D;
+	border: solid 3px #7D686D;
+	border-radius: 10px;
+	margin: 3px;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 17.5px;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #000000; 
+	width: 175px;
+	overflow: auto;
+}
+li a:hover, .dropdown:hover .dropdowm-btn {
+	background-color: #7D686D;
+	border: solid 3px #5C000D;
+}
+li .dropdown {
+	display: inline-block;
+}
+ .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 14px;
+	font-size: 30px;
+	text-align: left;
+	z-index: 1;
+}
+ .dropdown-content a:hover{
+	color: black;
+	font-size: 25px;
+	padding: 12px 14px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown:hover .dropdown-content a {
+	background-color: #7D686D;
+	border: solid 3px #5C000D;
+	color: #7D686D;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/**FOOTER**/
+
+.container-2 {
+	display: flex;
+  flex-direction: column;
+  list-style-type: none;
+	width: 50px;
+	height: 100px;
+}
+marquee {
+	color: white;
+	margin-bottom: 20px;
+}
+ .link-footer {
+	text-decoration: none;
+	display: block;
+	border: none;
+}
+.img-1 {
+	border: none;
+	margin-top: 10px;
+	margin-left: -30px;
+	margin-bottom: 5px;
+	margin-right: 30px;
+}
+
+/**CONTACT PAGE**/
+
+div .one-c{
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	height: 200px;
+}
+.contact-para {
+	font-size: 20px;
+	font-weight: bold;
+}
+.c-page {
+	background-color: #5C000D;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 5px #000000;
+	border: solid black 3px;
+	border-radius: 10px;
+	padding: 12px 14px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	width: 500px;
+	height: 50px;
+}
+.c-page:hover {
+	background-color: #7D686D;
+}
+
+/**PRINTS FOR SALE**/
+
+div .four {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 1000px;
+}
+.prints {
+	display: block;
+	color: #FFFFFF;
+	width: 175px;
+	background: linear-gradient( #7D686D, #FFFFFF );
+	border: solid 3px #745F5E;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 12px 14px;
+	text-decoration: none;
+	text-shadow: 2px 2px #000000;
+	text-align: left;
+	font-size: 17.5px;
+	font-weight: bold;
+}
+.prints:hover {
+	background: linear-gradient( #FFFFFF, #7D686D);
+	width: 210px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+marquee {
+	margin-top: 10px;
+}
+/**ACRYLICS**/
+
+.img-2{
+	width: 75px;
+	height: 100px;
+}
+
+/**CHARCOAL_PASTELS**/
+
+/**DIGITALS**/
+
+div .gallery {
+
+}
+
+/**PORTRAITS**/
+
+/**WATERCOLORS**/
+
+
+
+
+
+
+
+
+
